@@ -110,6 +110,8 @@ export function update() {
       }
     }
   }
+
+  return map;
 }
 
 function draw() {
