@@ -80,7 +80,7 @@ function moveVertical(dy: number) {
   }
 }
 
-function update() {
+export function update() {
   while (inputs.length > 0) {
     let current = inputs.pop();
     if (current === Input.LEFT)
